@@ -8,7 +8,7 @@ CORS(app, resources={r"/get_accident_prone_areas": {"origins": "*"}})
 
 
 # Load accident data
-accident_data = pd.read_csv(r"D:\python\accident_data.csv")
+accident_data = pd.read_csv(r"accident_data.csv")
 
 # function to calculate the distance between two points
 def calculate_distance(point1, point2):
